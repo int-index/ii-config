@@ -1,8 +1,7 @@
 { config, pkgs, hostConfig, ... }:
 
 {
-  # We need unfree packages to use VirtualBox, but not otherwise.
-  nixpkgs.config.allowUnfree = hostConfig.vboxEnabled;
+  nixpkgs.config.allowUnfree = true;
 
   nix.nixPath = [ "/etc/nixos" "nixos-config=/etc/nixos/configuration.nix" ];
 
