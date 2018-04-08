@@ -41,10 +41,10 @@ In `/etc/nixos/`, the following contents are expected:
   }
   ```
 
-* `nixpkgs/`: a local checkout of nixpkgs unstable. See ("NixOS with a local
-  nixpkgs checkout instead of channels")(nixpkgs-local-checkout).
+* `nixpkgs/`: a local checkout of nixpkgs unstable. See ["NixOS with a local
+  nixpkgs checkout instead of channels"][1].
 
-[nixpkgs-local-checkout]: <https://web.archive.org/web/20160327190212/http://anderspapitto.com/posts/2015-11-01-nixos-with-local-nixpkgs-checkout.html>
+[1]: <https://web.archive.org/web/20160327190212/http://anderspapitto.com/posts/2015-11-01-nixos-with-local-nixpkgs-checkout.html>
 
 ## `$HOME` files
 
