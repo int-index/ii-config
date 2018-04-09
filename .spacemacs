@@ -53,8 +53,7 @@
                                 (projects . 7))
    dotspacemacs-startup-buffer-responsive t
    dotspacemacs-scratch-mode 'text-mode
-   dotspacemacs-themes '(spacemacs-dark
-                         leuven)
+   dotspacemacs-themes '(leuven spacemacs-dark)
    dotspacemacs-colorize-cursor-according-to-state t
    dotspacemacs-default-font '("Iosevka-12")
    dotspacemacs-leader-key "SPC"
