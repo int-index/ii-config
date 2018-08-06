@@ -55,18 +55,6 @@ In `/etc/nixos/`, the following contents are expected:
   ln -s <ii-config>/xmonad.hs $HOME/.xmonad/xmonad.hs`.
   ```
 
-* Spacemacs:
-  ```
-  ln -s <ii-config>/.spacemacs $HOME/.spacemacs
-  git clone https://github.com/syl20bnr/spacemacs $HOME/.emacs.d
-  git clone https://github.com/ProofGeneral/PG.git $HOME/.emacs.d/private/proof-general
-  git clone https://github.com/olivierverdier/spacemacs-coq $HOME/.emacs.d/private/coq
-  ```
-
-  Then change the value of `defvar proof-genera-path` in
-  `$HOME/.emacs.d/private/coq` to
-  `$HOME/.emacs.d/private/proof-general/generic/proof-site`.
-
 * Zsh:
   ```
   ln -s <ii-config>/.oh-my-zsh-custom $HOME/.oh-my-zsh-custom

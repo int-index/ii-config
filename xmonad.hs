@@ -100,7 +100,7 @@ myKeys conf@(XConfig {modMask, terminal, layoutHook, workspaces}) = M.fromList $
     ((modMask, xK_f), filemanager),
     ((modMask, xK_c), kill),
     ((modMask, xK_b), sendMessage ToggleStruts),
-    ((modMask, xK_e), spawn "emacsclient -c"),
+    ((modMask, xK_e), spawn "nvim-qt"),
     ((0, xK_Print), spawn "xfce4-screenshooter"),
 
     ((modMask, xK_space), sendMessage NextLayout),

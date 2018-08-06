@@ -11,4 +11,4 @@ source $ZSH/oh-my-zsh.sh
 bindkey '^P' up-line-or-search
 bindkey '^N' down-line-or-search
 
-alias edit="emacsclient -nc"
+alias edit="nvim-qt"
