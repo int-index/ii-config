@@ -38,6 +38,7 @@
     emacs
     git
     gitAndTools.diff-so-fancy
+    meld
     lynx
     firefox
     chromium
@@ -95,7 +96,6 @@
     ghc
     stack
     cabal-install
-    nix-repl
     aspell
     aspellDicts.en
     cabal2nix
@@ -137,6 +137,7 @@
     vlc
     haskellPackages.Agda
     ripgrep
+    toggldesktop
     # cabal-install-head
   ];
 
@@ -255,5 +256,5 @@
     uid = 1000;
   };
 
-  system.nixos.stateVersion = "unstable";
+  system.stateVersion = "unstable";
 }

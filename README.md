@@ -60,3 +60,8 @@ In `/etc/nixos/`, the following contents are expected:
   ln -s <ii-config>/.oh-my-zsh-custom $HOME/.oh-my-zsh-custom
   ln -s <ii-config>/.zshrc $HOME/.zshrc
   ```
+
+* tmux:
+  ```
+  ln -s <ii-config>/.tmux.conf $HOME/.tmux.conf
+  ```

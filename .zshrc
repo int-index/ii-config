@@ -12,3 +12,5 @@ bindkey '^P' up-line-or-search
 bindkey '^N' down-line-or-search
 
 alias edit="nvim-qt"
+
+TERM=screen-256color-bce # fix nvim colors in tmux
