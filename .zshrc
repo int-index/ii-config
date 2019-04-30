@@ -1,3 +1,6 @@
+# [[ $TERM != "screen" ]] && exec tmux -2 new-session -A -s main
+# ^^ blows up inside nvim term
+
 ZSH_CUSTOM=$HOME/.oh-my-zsh-custom
 
 ZSH_THEME="int-index"
@@ -12,5 +15,3 @@ bindkey '^P' up-line-or-search
 bindkey '^N' down-line-or-search
 
 alias edit="nvim-qt"
-
-TERM=screen-256color-bce # fix nvim colors in tmux
