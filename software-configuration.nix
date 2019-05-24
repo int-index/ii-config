@@ -34,10 +34,11 @@
     vim
     neovim
     neovim-qt
-    pythonPackages.neovim
+    pythonPackages.pynvim
     emacs
     git
     gitAndTools.diff-so-fancy
+    tig
     meld
     lynx
     firefox
@@ -152,7 +153,7 @@
   programs.tmux.enable = true;
 
   virtualisation.virtualbox.host.enable = hostConfig.vboxEnabled;
-  nixpkgs.config.virtualbox.enableExtensionPack = true;
+  virtualisation.virtualbox.host.enableExtensionPack = true;
 
   networking.firewall.enable = false;
   services.printing.enable = false;
