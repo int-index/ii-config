@@ -164,7 +164,7 @@
   };
   hardware.bluetooth.enable = true;
   hardware.cpu.intel.updateMicrocode = true;
-  hardware.enableAllFirmware = true;
+  hardware.enableRedistributableFirmware = true;
 
   sound.mediaKeys = {
     enable = true;
