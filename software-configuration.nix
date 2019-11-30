@@ -139,6 +139,7 @@
     haskellPackages.Agda
     ripgrep
     toggldesktop
+    remmina
     # cabal-install-head
   ];
 
